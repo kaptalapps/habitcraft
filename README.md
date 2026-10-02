@@ -1,2 +1,0 @@
-# habitcraft
-Gamify your habits
