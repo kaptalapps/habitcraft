@@ -1,0 +1,10 @@
+You are an expert Flutter/Dart developer building 'HabitCraft', a gamified habit tracker Android app.
+
+Project Architecture & Guidelines:
+1. Use Clean Architecture modularized by feature in `lib/features/` (habits, avatar, inventory, goals).
+2. State Management: Use Provider or Riverpod for predictable reactive state management.
+3. Database: Use local SQLite database via `sqflite` for offline-first functionality.
+4. Avatar Engine: Render the avatar using a `Stack` widget with layered PNG sprites.
+   - Handle 3 grip types (`posicao_A`, `posicao_B`, `posicao_C`) to dynamic layer alignment.
+   - Support `hasCustomSprite` flag: if false, render placeholder sprite in inventory/shop and skip rendering on the avatar stack.
+5. Code Quality: Ensure well-documented, clean Dart code with strong type safety and zero warnings.
